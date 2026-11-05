@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-gray-50,
+.bg-slate-50 {
+    background-color: #fdf2f8;
+}
+
+.bg-gray-100 {
+    background-color: #fce7f3;
+}
+
+[class~="hover:bg-gray-50"]:hover {
+    background-color: #fdf2f8;
+}
